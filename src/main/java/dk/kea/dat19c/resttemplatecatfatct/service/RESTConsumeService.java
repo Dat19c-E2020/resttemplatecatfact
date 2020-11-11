@@ -26,7 +26,7 @@ public class RestConsumeService {
 
         CatFact catFact = restTemplate.getForObject(queryUrl, CatFact.class);
 
-        return CatFact;
+        return catFact;
 
     }
 
